@@ -1,21 +1,27 @@
 {
-  "name": "AppTest echaleOjo",
-  "version": "2.0.0",
-  "description": "Appara Proyecto 8",
+  "name": "echaleojo_2.0",
+  "version": "1.0.0",
+  "description": "proyecto",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "Jess, Carlos & Kathia",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessica0696/echaleOjo_2.0.git"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "tutorial"
+  ],
+  "author": "jess",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessica0696/echaleOjo_2.0/issues"
+  },
+  "homepage": "https://github.com/jessica0696/echaleOjo_2.0#readme",
   "dependencies": {
-    "ejs": "^3.1.9",
-    "express": "^4.17.1",
-    "express-session": "^1.17.3",
-    "passport": "^0.6.0",
-    "passport-local": "^1.0.0",
-    "sqlite3": "^4.2.0"
+    "sqlite3": "^5.1.6"
   }
 }
