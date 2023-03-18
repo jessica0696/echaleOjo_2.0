@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: false }));
 
 // Conexión a la base de datos
 //const db_name = path.join(__dirname, "data", "apptest.db");
-const db = require('./data/db');
+const db = require('./data/db').default;
 
 app.use(session({
   secret: "test",
