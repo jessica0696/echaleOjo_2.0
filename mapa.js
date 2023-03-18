@@ -1,4 +1,4 @@
-let map = L.map('map').setView([4.639386,-74.082412],6)
+let map = L.map('map').setView([204036, 1032051],6)
 
 //Agregar tilelAyer mapa base desde openstreetmap
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
