@@ -5,6 +5,7 @@ const passportLocal = require('passport-local');
 const path = require("path");
 const bodyParser = require('body-parser');
 const sqlite3 = require("sqlite3").verbose();
+const home = require("./views/conoce");
 
 // Creación de servidor con Expresss
 const app = express();
